@@ -1,0 +1,245 @@
+# R Project - Predicting Season Point Totals Using Linear Regression
+
+# Load Libraries
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(car)
+library(MASS)
+library(caTools)
+#uploading the packages needed for the project
+```
+
+# Load data
+
+```{r}
+euro5 = read.csv("C:/Users/texas/Documents/Euro5_6Yr_Data.csv")
+euro5
+#pull in data for each team with their league, year, points, shot data, and touches in pen area
+#data omits Ligue 1 2019/20 Season, as it was cancelled and not resumed due to COVID
+```
+
+#Split Data
+
+```{r}
+#Split data sets; 75% will go to training and 25% will go to testing
+set.seed(10)
+data_split = sample.split(euro5$Points, SplitRatio = 0.75)
+training_set = subset(euro5, data_split == TRUE)
+test_set = subset(euro5, data_split == FALSE)
+```
+
+```{r}
+training_set
+test_set
+```
+
+# Evaluate linear relationship/normality
+
+```{r}
+pairs(training_set[, 4:7])
+#when looking at pairs with points, we can identify a linear relationship
+```
+
+```{r}
+ggplot(data = training_set, aes(x = Total.Shots)) + 
+  geom_histogram(bins = 10) + 
+  labs(x = "Total Shots", y = "Frequency", title = "Histogram of Total Shots")
+
+ggplot(data = training_set, aes(x = Shot...on.Target)) +
+  geom_histogram(bins = 10) + 
+  labs(x = "Shot % on Target", y = "Frequency", title = "Histogram of Shot % on Target")
+
+ggplot(data = training_set, aes(x = Total.Touches.in.Penalty.Area)) + 
+  geom_histogram(bins = 10) +
+  labs(x = "Total Touches in Penalty Area", y = "Frequency", title = "Histogram of Total Touches in Penalty Area")
+#distributions show a skew, most evident with total touches in penalty area and total shots
+#may need to utilize box cox method on linear regression model as a result
+```
+
+```{r}
+ggplot(data = training_set, aes(x = Total.Shots, y = Points)) + 
+  geom_point(aes(color = League)) + 
+  facet_wrap(~ League) + 
+  labs(x = "Total Shots", y = "Points", title = "Points vs Total Shots by League")
+
+ggplot(data = training_set, aes(x = Shot...on.Target, y = Points)) + 
+  geom_point(aes(color = League)) + 
+  facet_wrap(~ League) +
+  labs(x = "Shot % on Target", y = "Points", title = "Points vs Shot % on Target")
+
+ggplot(data = training_set, aes(x = Total.Touches.in.Penalty.Area, y = Points)) + 
+  geom_point(aes(color = League)) + 
+  facet_wrap(~ League) +
+  labs(x = "Total Touches in Penalty Area", y = "Points", title = "Points vs Total Touches in Penalty Area")
+
+#Checking to see if a specific league breaks the linear trend identified in pairs before. All scattergrams show linear relationship
+```
+
+```{r}
+ggplot(data = training_set, aes(x = Total.Shots, y = Points)) + 
+  geom_point(aes(color = League)) + 
+  labs(x = "Total Shots", y = "Points", title = "Points vs Total Shots by League")
+
+ggplot(data = training_set, aes(x = Shot...on.Target, y = Points)) + 
+  geom_point(aes(color = League)) +
+  labs(x = "Shot % on Target", y = "Points", title = "Points vs Shot % on Target")
+
+ggplot(data = training_set, aes(x = Total.Touches.in.Penalty.Area, y = Points)) + 
+  geom_point(aes(color = League)) +
+  labs(x = "Total Touches in Penalty Area", y = "Points", title = "Points vs Total Touches in Penalty Area")
+
+#Clear linear relationship between points and x variables
+```
+
+
+# Building Linear Regression Models
+
+# Model 1
+
+```{r}
+mod_1 = lm(Points ~ Total.Shots + Shot...on.Target + Total.Touches.in.Penalty.Area, data = training_set)
+summary(mod_1)
+plot(mod_1)
+influencePlot(mod_1)
+vif(mod_1)
+avPlots(mod_1)
+```
+
+# Apply Box Cox to Model 1
+
+```{r}
+bc_1 = boxcox(mod_1)
+```
+
+```{r}
+lambda1 = bc_1$x[which.max(bc_1$y)]
+lambda1
+```
+
+```{r}
+bc_mod_1 = lm(((Points^lambda1-1)/lambda1) ~ Total.Shots + 
+                Shot...on.Target + 
+                Total.Touches.in.Penalty.Area, data = training_set)
+summary(bc_mod_1)
+plot(bc_mod_1)
+influencePlot(bc_mod_1)
+vif(bc_mod_1)
+avPlots(bc_mod_1)
+```
+
+# Model 2 - Removing Touches in Penalty Area from our model.
+
+```{r}
+mod_2 = lm(Points ~ Total.Shots + Shot...on.Target, data = training_set)
+summary(mod_2)
+plot(mod_2)
+influencePlot(mod_2)
+vif(mod_2)
+avPlots(mod_2)
+```
+
+# Apply Box Cox to Model 2
+
+```{r}
+bc_2 = boxcox(mod_2)
+```
+
+```{r}
+lambda2 = bc_2$x[which.max(bc_2$y)]
+lambda2
+```
+
+```{r}
+bc_mod_2 = lm(((Points^lambda2-1)/lambda2) ~ Total.Shots + 
+                Shot...on.Target, data = training_set)
+summary(bc_mod_2)
+plot(bc_mod_2)
+influencePlot(bc_mod_2)
+vif(bc_mod_2)
+avPlots(bc_mod_2)
+```
+
+# Comparing the AIC & BIC of our models
+
+```{r}
+AIC(mod_1, mod_2, bc_mod_1, bc_mod_2)
+BIC(mod_1, mod_2, bc_mod_1, bc_mod_2)
+
+# based on the AIC & BIC, the Box Cox models are stronger than the original models.
+# The AIC of bc_mod_2 is the strongest, indicating it may be the best for our predictive model.
+```
+
+# Predictions from Models
+
+```{r}
+# generating point prediction metrics for each model
+set.seed(20)
+mod_1_prediction = predict(mod_1, test_set)
+bc_mod_1_prediction = predict(bc_mod_1, test_set)
+mod_2_prediction = predict(mod_2, test_set)
+bc_mod_2_prediction = predict(bc_mod_2, test_set)
+```
+
+```{r}
+mod_1_prediction
+```
+
+
+# Adding predictions to test data set
+
+```{r}
+test_set_m1 = test_set %>% mutate(Predicted_Points = mod_1_prediction, Point_Diff = Points - Predicted_Points)
+test_set_m1bc = test_set %>% mutate(Predicted_Points = bc_mod_1_prediction, Point_Diff = Points - Predicted_Points)
+test_set_m2 = test_set %>% mutate(Predicted_Points = mod_2_prediction, Point_Diff = Points - Predicted_Points)
+test_set_m2bc = test_set %>% mutate(Predicted_Points = bc_mod_2_prediction, Point_Diff = Points - Predicted_Points)
+# New test data frames for each prediction outcome by model
+```
+
+# Checking new data sets
+
+```{r}
+head(test_set_m1)
+head(test_set_m1bc)
+head(test_set_m2)
+head(test_set_m2bc)
+# Box Cox models seem significantly off when it comes to actual points vs predicted points
+```
+
+```{r}
+mean(test_set_m1$Point_Diff)
+mean(test_set_m1bc$Point_Diff)
+mean(test_set_m2$Point_Diff)
+mean(test_set_m2bc$Point_Diff)
+#based on the average point differential for all charts, we find that mod_1 and mod_2 are closest to the actual point total captured by each team. Mod_1 & mod_2 with the box cox adjustments generated predictions that are drastically different from the actualized points total.
+```
+
+
+# Creating a summary snapshot
+
+```{r}
+Model_Names = c('mod_1', 'bc_mod_1', 'mod_2', 'bc_mod_2')
+Mod_RSE = c(9.894, 4.316, 10.23, 3.252)
+R_Sqr_Adj = c(0.6836, 0.6749, 0.6615, 0.6506)
+Reg_P_Value = c(2.2e-16, 2.2e-16, 2.2e-16, 2.2e-16)
+VIF_Grtr_5 = c("No", "No", "No", "No")
+Mod_AIC = c(3204.715, 2489.708, 3232.913, 2244.626)
+Mod_BIC = c(3225.045, 2510.039, 3249.178, 2260.890)
+Avg_Point_Diff = c(-0.2483004, 24.29167, -0.4957172, 29.70335)
+```
+
+
+# Model evaluation and conclusion
+
+```{r}
+model_eval_df = tibble(Model_Names, Mod_RSE, R_Sqr_Adj, Reg_P_Value, 
+                       VIF_Grtr_5, Mod_AIC, Mod_BIC, Avg_Point_Diff)
+model_eval_df
+
+#during our evaluation, at first glance it seems as if the box cox models have stronger metrics. The RSE is drastically lower, both AIC/BIC are smaller than the non box cox models, and the R^2 adj is similar to the non box cox models. However, when evaluating the average point differential, the traditional models are far more accurate. The average point difference, which is the most important factor when a club would be utilizing a model, is drastically more accurate on the non box cox models. For that reason, we will evaluate model 1 and 2. Model 1 has a lower RSE, higher R^2adj, and a smaller AIC/BIC. In addition to this, when we tested the model the average point difference was -0.2483004, compared to mod_2, which had an average point difference of -0.4957172.
+```
+
+
+
+

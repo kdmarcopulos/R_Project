@@ -1,0 +1,569 @@
+Team,League,Year,Points,Total Shots,Shot % on Target,Total Touches in Penalty Area
+Atalanta,Serie A,2015/16,45,449,32.1,504
+Bologna,Serie A,2015/16,42,375,31.2,433
+Carpi,Serie A,2015/16,38,414,31.6,480
+Chievo,Serie A,2015/16,50,419,32.7,441
+Empoli,Serie A,2015/16,46,479,31.1,471
+Fiorentina,Serie A,2015/16,64,556,33.6,505
+Frosinone,Serie A,2015/16,31,461,27.3,372
+Genoa,Serie A,2015/16,46,451,33.3,523
+Hellas Verona,Serie A,2015/16,28,439,34.4,523
+Internazionale,Serie A,2015/16,67,502,33.5,609
+Juventus,Serie A,2015/16,91,571,37.7,667
+Lazio,Serie A,2015/16,54,501,29.9,631
+Milan,Serie A,2015/16,57,533,32.8,596
+Napoli,Serie A,2015/16,82,648,36.4,712
+Palermo,Serie A,2015/16,39,399,30.3,451
+Roma,Serie A,2015/16,80,567,37.6,742
+Sampdoria,Serie A,2015/16,40,433,36.7,488
+Sassuolo,Serie A,2015/16,61,480,31.9,511
+Torino,Serie A,2015/16,45,453,39.3,510
+Udinese,Serie A,2015/16,39,418,34,508
+Atalanta,Serie A,2016/17,72,510,39,728
+Bologna,Serie A,2016/17,41,410,36.1,445
+Cagliari,Serie A,2016/17,47,404,41.8,472
+Chievo,Serie A,2016/17,43,398,33.2,481
+Crotone,Serie A,2016/17,34,384,33.3,424
+Empoli,Serie A,2016/17,32,355,36.1,495
+Fiorentina,Serie A,2016/17,60,586,38.1,586
+Genoa,Serie A,2016/17,36,420,34.8,577
+Internazionale,Serie A,2016/17,62,596,35.4,753
+Juventus,Serie A,2016/17,91,561,39.4,708
+Lazio,Serie A,2016/17,70,554,37.9,715
+Milan,Serie A,2016/17,63,541,36.4,651
+Napoli,Serie A,2016/17,86,664,38.4,741
+Palermo,Serie A,2016/17,26,358,32.7,369
+Pescara,Serie A,2016/17,15,432,33.8,569
+Roma,Serie A,2016/17,87,647,34.9,822
+Sampdoria,Serie A,2016/17,48,474,34.4,468
+Sassuolo,Serie A,2016/17,49,415,39.8,520
+Torino,Serie A,2016/17,53,556,32.6,618
+Udinese,Serie A,2016/17,45,415,37.1,482
+Atalanta,Serie A,2017/18,60,551,36.7,798
+Benevento,Serie A,2017/18,21,447,33.3,442
+Bologna,Serie A,2017/18,39,335,35.2,430
+Cagliari,Serie A,2017/18,39,350,32.9,474
+Chievo,Serie A,2017/18,40,363,36.1,458
+Crotone,Serie A,2017/18,35,379,35.1,433
+Fiorentina,Serie A,2017/18,57,592,32.8,664
+Genoa,Serie A,2017/18,41,397,33,528
+Hellas Verona,Serie A,2017/18,25,338,29.3,360
+Internazionale,Serie A,2017/18,72,562,37.9,772
+Juventus,Serie A,2017/18,95,530,39.2,609
+Lazio,Serie A,2017/18,72,536,40.3,729
+Milan,Serie A,2017/18,64,589,38.4,688
+Napoli,Serie A,2017/18,91,638,40,778
+Roma,Serie A,2017/18,77,632,33.5,803
+Sampdoria,Serie A,2017/18,54,451,38.6,574
+Sassuolo,Serie A,2017/18,43,459,30.9,509
+SPAL,Serie A,2017/18,38,362,31.8,407
+Torino,Serie A,2017/18,54,433,37,558
+Udinese,Serie A,2017/18,40,422,32.7,491
+Atalanta,Serie A,2018/19,69,596,37.2,900
+Bologna,Serie A,2018/19,44,462,35.7,572
+Cagliari,Serie A,2018/19,41,407,29.7,523
+Chievo,Serie A,2018/19,20,355,32.4,428
+Empoli,Serie A,2018/19,38,438,34.2,662
+Fiorentina,Serie A,2018/19,41,548,33.4,671
+Frosinone,Serie A,2018/19,25,427,29.3,461
+Genoa,Serie A,2018/19,38,489,31.1,603
+Internazionale,Serie A,2018/19,69,582,33.8,845
+Juventus,Serie A,2018/19,90,566,34.6,796
+Lazio,Serie A,2018/19,59,581,31.8,749
+Milan,Serie A,2018/19,68,556,34.9,654
+Napoli,Serie A,2018/19,79,689,34.4,825
+Parma,Serie A,2018/19,41,342,35.4,414
+Roma,Serie A,2018/19,66,582,38.3,784
+Sampdoria,Serie A,2018/19,53,478,38.7,592
+Sassuolo,Serie A,2018/19,43,485,31.3,565
+SPAL,Serie A,2018/19,42,432,32.9,498
+Torino,Serie A,2018/19,63,484,36.2,608
+Udinese,Serie A,2018/19,43,440,29.5,495
+Atalanta,Serie A,2019/20,78,674,39.6,1013
+Bologna,Serie A,2019/20,47,531,32,700
+Brescia,Serie A,2019/20,25,391,36.8,580
+Cagliari,Serie A,2019/20,45,421,34,545
+Fiorentina,Serie A,2019/20,49,519,35.6,778
+Genoa,Serie A,2019/20,39,409,37.2,563
+Hellas Verona,Serie A,2019/20,49,427,38.4,673
+Internazionale,Serie A,2019/20,82,585,39.5,869
+Juventus,Serie A,2019/20,83,656,36.6,804
+Lazio,Serie A,2019/20,78,562,39.5,817
+Lecce,Serie A,2019/20,35,483,37.1,625
+Milan,Serie A,2019/20,66,595,33.4,815
+Napoli,Serie A,2019/20,62,660,35.3,861
+Parma,Serie A,2019/20,49,444,34.9,637
+Roma,Serie A,2019/20,70,613,35.2,859
+Sampdoria,Serie A,2019/20,42,527,33.2,626
+Sassuolo,Serie A,2019/20,51,520,38.1,716
+SPAL,Serie A,2019/20,20,430,28.1,555
+Torino,Serie A,2019/20,40,421,36.8,625
+Udinese,Serie A,2019/20,45,445,32.8,648
+Atalanta,Serie A,2020/21,78,590,39.7,1027
+Benevento,Serie A,2020/21,33,387,34.9,628
+Bologna,Serie A,2020/21,41,471,38.2,686
+Cagliari,Serie A,2020/21,37,400,31.5,657
+Crotone,Serie A,2020/21,23,346,34.4,488
+Fiorentina,Serie A,2020/21,40,347,34.9,579
+Genoa,Serie A,2020/21,42,319,38.9,486
+Hellas Verona,Serie A,2020/21,45,375,33.3,697
+Internazionale,Serie A,2020/21,91,525,38.3,912
+Juventus,Serie A,2020/21,78,563,37.5,976
+Lazio,Serie A,2020/21,68,494,37.9,762
+Milan,Serie A,2020/21,79,520,38.5,805
+Napoli,Serie A,2020/21,77,602,37.4,892
+Parma,Serie A,2020/21,20,380,34.7,539
+Roma,Serie A,2020/21,62,518,39,805
+Sampdoria,Serie A,2020/21,52,386,37.3,624
+Sassuolo,Serie A,2020/21,62,504,35.7,746
+Spezia,Serie A,2020/21,39,356,37.6,661
+Torino,Serie A,2020/21,37,429,35.2,579
+Udinese,Serie A,2020/21,40,392,32.9,668
+Athletic Bilbao,La Liga,2015/16,62,443,37.7,584
+Atlético Madrid,La Liga,2015/16,88,466,35.4,639
+Barcelona,La Liga,2015/16,91,603,44.3,1040
+Celta de Vigo,La Liga,2015/16,60,435,36.3,658
+Deportivo La Coruña,La Liga,2015/16,42,439,35.5,455
+Eibar,La Liga,2015/16,43,398,37.9,498
+Espanyol,La Liga,2015/16,43,373,38.3,501
+Getafe,La Liga,2015/16,36,410,35.1,505
+Granada,La Liga,2015/16,39,417,33.1,401
+Las Palmas,La Liga,2015/16,44,404,40.3,472
+Levante,La Liga,2015/16,32,415,35.9,468
+Málaga,La Liga,2015/16,48,437,37.3,544
+Rayo Vallecano,La Liga,2015/16,38,484,38,506
+Real Betis,La Liga,2015/16,45,360,33.6,461
+Real Madrid,La Liga,2015/16,90,697,40.9,925
+Real Sociedad,La Liga,2015/16,48,433,35.8,572
+Sevilla,La Liga,2015/16,52,434,41.9,734
+Sporting Gijón,La Liga,2015/16,39,347,35.2,475
+Valencia,La Liga,2015/16,44,386,35.2,539
+Villarreal,La Liga,2015/16,64,331,39.9,513
+Athletic Bilbao,La Liga,2016/17,63,444,39.9,543
+Atlético Madrid,La Liga,2016/17,78,473,41.6,563
+Barcelona,La Liga,2016/17,90,617,43.4,1001
+Celta de Vigo,La Liga,2016/17,45,383,38.6,443
+Deportivo Alavés,La Liga,2016/17,55,377,35.5,372
+Deportivo La Coruña,La Liga,2016/17,36,419,33.4,405
+Eibar,La Liga,2016/17,54,432,41,480
+Espanyol,La Liga,2016/17,56,317,39.7,352
+Granada,La Liga,2016/17,20,360,35,345
+Las Palmas,La Liga,2016/17,39,410,44.1,514
+Leganés,La Liga,2016/17,35,402,33.6,427
+Málaga,La Liga,2016/17,46,472,36,509
+Osasuna,La Liga,2016/17,22,365,39.2,419
+Real Betis,La Liga,2016/17,39,418,37.6,499
+Real Madrid,La Liga,2016/17,93,628,42.4,862
+Real Sociedad,La Liga,2016/17,64,468,34.4,611
+Sevilla,La Liga,2016/17,72,448,43.3,720
+Sporting Gijón,La Liga,2016/17,31,344,38.4,461
+Valencia,La Liga,2016/17,46,420,41,507
+Villarreal,La Liga,2016/17,67,392,41.1,539
+Athletic Bilbao,La Liga,2017/18,43,397,38.3,592
+Atlético Madrid,La Liga,2017/18,79,376,40.7,549
+Barcelona,La Liga,2017/18,93,566,47.3,1009
+Celta de Vigo,La Liga,2017/18,49,418,38.5,573
+Deportivo Alavés,La Liga,2017/18,47,356,37.4,416
+Deportivo La Coruña,La Liga,2017/18,29,423,33.1,574
+Eibar,La Liga,2017/18,51,431,31.1,554
+Espanyol,La Liga,2017/18,49,381,35.2,479
+Getafe,La Liga,2017/18,55,342,38,440
+Girona,La Liga,2017/18,51,423,37.6,514
+Las Palmas,La Liga,2017/18,22,387,32.6,456
+Leganés,La Liga,2017/18,43,375,35.7,445
+Levante,La Liga,2017/18,46,385,31.2,518
+Málaga,La Liga,2017/18,20,364,32.1,420
+Real Betis,La Liga,2017/18,60,384,42.2,473
+Real Madrid,La Liga,2017/18,76,669,42.2,1023
+Real Sociedad,La Liga,2017/18,49,475,36,653
+Sevilla,La Liga,2017/18,58,492,38.8,739
+Valencia,La Liga,2017/18,73,452,40.5,568
+Villarreal,La Liga,2017/18,61,456,37.3,585
+Athletic Bilbao,La Liga,2018/19,53,349,38.4,574
+Atlético Madrid,La Liga,2018/19,76,414,38.9,630
+Barcelona,La Liga,2018/19,87,544,46.3,847
+Celta de Vigo,La Liga,2018/19,41,414,38.9,544
+Deportivo Alavés,La Liga,2018/19,50,394,30.7,475
+Eibar,La Liga,2018/19,47,490,32.4,724
+Espanyol,La Liga,2018/19,53,450,36,556
+Getafe,La Liga,2018/19,59,357,34.7,550
+Girona,La Liga,2018/19,37,368,40.5,493
+Huesca,La Liga,2018/19,33,444,33.8,547
+Leganés,La Liga,2018/19,45,384,33.3,460
+Levante,La Liga,2018/19,44,409,38.1,546
+Rayo Vallecano,La Liga,2018/19,32,436,35.3,515
+Real Betis,La Liga,2018/19,50,432,38.4,672
+Real Madrid,La Liga,2018/19,68,561,38.7,868
+Real Sociedad,La Liga,2018/19,50,398,35.9,509
+Real Valladolid,La Liga,2018/19,41,388,34,482
+Sevilla,La Liga,2018/19,59,489,37.2,824
+Valencia,La Liga,2018/19,61,448,36.8,682
+Villarreal,La Liga,2018/19,44,472,35.8,649
+Athletic Bilbao,La Liga,2019/20,51,379,36.1,479
+Atlético Madrid,La Liga,2019/20,70,431,33.2,674
+Barcelona,La Liga,2019/20,82,486,45.7,935
+Celta de Vigo,La Liga,2019/20,37,349,39.8,545
+Deportivo Alavés,La Liga,2019/20,39,292,35.3,447
+Eibar,La Liga,2019/20,42,410,36.1,545
+Espanyol,La Liga,2019/20,25,376,33.5,483
+Getafe,La Liga,2019/20,54,379,33,539
+Granada,La Liga,2019/20,56,364,35.4,491
+Leganés,La Liga,2019/20,36,397,38,524
+Levante,La Liga,2019/20,49,409,34.5,544
+Mallorca,La Liga,2019/20,33,400,33.5,564
+Osasuna,La Liga,2019/20,52,426,34.3,582
+Real Betis,La Liga,2019/20,41,445,35.7,720
+Real Madrid,La Liga,2019/20,87,529,43.7,897
+Real Sociedad,La Liga,2019/20,56,408,36,677
+Real Valladolid,La Liga,2019/20,42,365,34,411
+Sevilla,La Liga,2019/20,70,467,36.8,764
+Valencia,La Liga,2019/20,53,317,38.5,558
+Villarreal,La Liga,2019/20,60,458,36.7,653
+Athletic Bilbao,La Liga,2020/21,46,375,37.3,617
+Atlético Madrid,La Liga,2020/21,86,432,43.3,781
+Barcelona,La Liga,2020/21,79,563,42.5,1123
+Cádiz,La Liga,2020/21,44,275,36.4,377
+Celta de Vigo,La Liga,2020/21,53,329,43.2,536
+Deportivo Alavés,La Liga,2020/21,38,330,32.4,478
+Eibar,La Liga,2020/21,30,413,32.7,596
+Elche,La Liga,2020/21,36,240,37.5,374
+Getafe,La Liga,2020/21,38,339,31.9,555
+Granada,La Liga,2020/21,46,340,38.5,478
+Huesca,La Liga,2020/21,34,376,35.9,526
+Levante,La Liga,2020/21,41,367,36.8,625
+Osasuna,La Liga,2020/21,44,356,36,526
+Real Betis,La Liga,2020/21,61,431,37.6,686
+Real Madrid,La Liga,2020/21,84,527,33,920
+Real Sociedad,La Liga,2020/21,62,400,38,723
+Real Valladolid,La Liga,2020/21,31,346,34.4,488
+Sevilla,La Liga,2020/21,77,427,33.7,700
+Valencia,La Liga,2020/21,43,382,35.9,491
+Villarreal,La Liga,2020/21,58,397,41.6,722
+Arsenal,Premier League,2015/16,71,553,37.6,963
+Aston Villa,Premier League,2015/16,17,368,29.3,413
+Bournemouth,Premier League,2015/16,42,450,30.9,583
+Chelsea,Premier League,2015/16,50,522,33.5,802
+Crystal Palace,Premier League,2015/16,42,459,34.2,561
+Everton,Premier League,2015/16,47,481,36.2,627
+Leicester City,Premier League,2015/16,81,500,36.8,628
+Liverpool,Premier League,2015/16,60,605,33.9,802
+Manchester City,Premier League,2015/16,66,580,35.2,842
+Manchester United,Premier League,2015/16,66,414,35.3,647
+Newcastle United,Premier League,2015/16,37,394,38.8,522
+Norwich City,Premier League,2015/16,34,409,32.3,477
+Southampton,Premier League,2015/16,63,517,33.7,674
+Stoke City,Premier League,2015/16,51,390,32.6,453
+Sunderland,Premier League,2015/16,39,431,33.6,486
+Swansea City,Premier League,2015/16,47,424,30.7,514
+Tottenham Hotspur,Premier League,2015/16,70,632,39.2,648
+Watford,Premier League,2015/16,45,434,33.6,478
+West Bromwich Albion,Premier League,2015/16,43,355,28.5,453
+West Ham United,Premier League,2015/16,62,532,34.2,618
+Arsenal,Premier League,2016/17,75,541,37.5,934
+Bournemouth,Premier League,2016/17,46,430,37.7,521
+Burnley,Premier League,2016/17,40,381,32,428
+Chelsea,Premier League,2016/17,93,567,37.2,817
+Crystal Palace,Premier League,2016/17,41,415,34.2,525
+Everton,Premier League,2016/17,61,479,39.7,581
+Hull City,Premier League,2016/17,34,362,34.3,428
+Leicester City,Premier League,2016/17,44,421,37.1,521
+Liverpool,Premier League,2016/17,76,602,38.5,822
+Manchester City,Premier League,2016/17,78,602,35.2,937
+Manchester United,Premier League,2016/17,69,564,38.1,755
+Middlesbrough,Premier League,2016/17,28,318,31.1,372
+Southampton,Premier League,2016/17,46,509,34,673
+Stoke City,Premier League,2016/17,44,397,34.5,507
+Sunderland,Premier League,2016/17,24,370,32.7,437
+Swansea City,Premier League,2016/17,41,393,37.4,505
+Tottenham Hotspur,Premier League,2016/17,86,645,39.7,712
+Watford,Premier League,2016/17,40,397,35.3,460
+West Bromwich Albion,Premier League,2016/17,45,372,33.3,468
+West Ham United,Premier League,2016/17,45,455,29.5,458
+Arsenal,Premier League,2017/18,63,573,40.3,929
+Bournemouth,Premier League,2017/18,44,434,35.9,616
+Brighton,Premier League,2017/18,40,366,33.6,449
+Burnley,Premier League,2017/18,54,361,36.3,449
+Chelsea,Premier League,2017/18,70,573,37,813
+Crystal Palace,Premier League,2017/18,44,455,33.2,578
+Everton,Premier League,2017/18,49,336,35.4,458
+Huddersfield Town,Premier League,2017/18,37,342,31.6,410
+Leicester City,Premier League,2017/18,47,394,37.6,523
+Liverpool,Premier League,2017/18,75,626,37.5,900
+Manchester City,Premier League,2017/18,100,645,40.9,1058
+Manchester United,Premier League,2017/18,81,489,36.8,708
+Newcastle United,Premier League,2017/18,44,433,34.2,469
+Southampton,Premier League,2017/18,36,429,33.8,551
+Stoke City,Premier League,2017/18,33,371,35,453
+Swansea City,Premier League,2017/18,33,322,32.6,398
+Tottenham Hotspur,Premier League,2017/18,77,600,35,756
+Watford,Premier League,2017/18,41,423,31.4,600
+West Bromwich Albion,Premier League,2017/18,31,369,30.4,450
+West Ham United,Premier League,2017/18,42,347,36.9,466
+Arsenal,Premier League,2018/19,70,442,38.5,866
+Bournemouth,Premier League,2018/19,45,417,38.8,687
+Brighton,Premier League,2018/19,36,344,30.5,459
+Burnley,Premier League,2018/19,40,333,33.6,504
+Cardiff City,Premier League,2018/19,34,383,30.8,504
+Chelsea,Premier League,2018/19,72,568,34.3,870
+Crystal Palace,Premier League,2018/19,49,446,32.1,679
+Everton,Premier League,2018/19,54,458,37.1,686
+Fulham,Premier League,2018/19,26,407,35.4,492
+Huddersfield Town,Premier League,2018/19,16,367,30.8,448
+Leicester City,Premier League,2018/19,52,489,37,623
+Liverpool,Premier League,2018/19,97,554,40.1,928
+Manchester City,Premier League,2018/19,98,639,39.7,1215
+Manchester United,Premier League,2018/19,66,503,43.5,711
+Newcastle United,Premier League,2018/19,45,410,34.9,524
+Southampton,Premier League,2018/19,39,455,36,581
+Tottenham Hotspur,Premier League,2018/19,71,508,37.2,707
+Watford,Premier League,2018/19,50,413,36.3,668
+West Ham United,Premier League,2018/19,52,417,36.5,626
+Wolverhampton Wanderers,Premier League,2018/19,57,446,33.6,606
+Arsenal,Premier League,2019/20,56,375,40,693
+Aston Villa,Premier League,2019/20,35,410,35.1,564
+Bournemouth,Premier League,2019/20,34,362,34.5,578
+Brighton,Premier League,2019/20,41,434,31.3,616
+Burnley,Premier League,2019/20,54,359,35.9,495
+Chelsea,Premier League,2019/20,66,581,36.8,898
+Crystal Palace,Premier League,2019/20,43,349,33.8,630
+Everton,Premier League,2019/20,49,426,37.3,690
+Leicester City,Premier League,2019/20,62,510,37.1,798
+Liverpool,Premier League,2019/20,99,559,40.3,1005
+Manchester City,Premier League,2019/20,81,700,36,1264
+Manchester United,Premier League,2019/20,66,518,40.5,726
+Newcastle United,Premier League,2019/20,44,376,35.1,433
+Norwich City,Premier League,2019/20,21,392,32.4,566
+Sheffield United,Premier League,2019/20,54,318,34.9,628
+Southampton,Premier League,2019/20,52,463,38,677
+Tottenham Hotspur,Premier League,2019/20,59,418,37.3,612
+Watford,Premier League,2019/20,34,390,30.8,636
+West Ham United,Premier League,2019/20,39,382,41.1,615
+Wolverhampton Wanderers,Premier League,2019/20,59,424,34.2,636
+Arsenal,Premier League,2020/21,61,442,33.7,817
+Aston Villa,Premier League,2020/21,55,502,36.9,840
+Brighton,Premier League,2020/21,41,457,31.3,797
+Burnley,Premier League,2020/21,39,352,36.4,550
+Chelsea,Premier League,2020/21,67,520,38.5,907
+Crystal Palace,Premier League,2020/21,44,335,39.4,528
+Everton,Premier League,2020/21,59,377,39,538
+Fulham,Premier League,2020/21,28,423,31.9,622
+Leeds United,Premier League,2020/21,59,490,40.8,819
+Leicester City,Premier League,2020/21,66,459,39,656
+Liverpool,Premier League,2020/21,69,570,35.8,1067
+Manchester City,Premier League,2020/21,86,572,37.6,1028
+Manchester United,Premier League,2020/21,74,493,42,787
+Newcastle United,Premier League,2020/21,45,369,38.2,486
+Sheffield United,Premier League,2020/21,23,303,32.7,549
+Southampton,Premier League,2020/21,43,404,40.8,612
+Tottenham Hotspur,Premier League,2020/21,62,426,40.6,612
+West Bromwich Albion,Premier League,2020/21,26,328,33.2,461
+West Ham United,Premier League,2020/21,65,435,36.6,668
+Wolverhampton Wanderers,Premier League,2020/21,45,437,35.5,596
+Augsburg,Bundesliga,2015/16,38,418,35.9,404
+Bayer Leverkusen,Bundesliga,2015/16,60,443,38.8,577
+Bayern München,Bundesliga,2015/16,88,583,43.1,800
+Borussia Dortmund,Bundesliga,2015/16,78,493,41.6,743
+Borussia M'gladbach,Bundesliga,2015/16,55,428,42.8,540
+Darmstadt 98,Bundesliga,2015/16,38,308,35.7,383
+Eintracht Frankfurt,Bundesliga,2015/16,36,325,38.2,440
+Hamburger SV,Bundesliga,2015/16,41,344,35.8,400
+Hannover 96,Bundesliga,2015/16,25,348,34.5,362
+Hertha BSC,Bundesliga,2015/16,50,298,40.9,376
+Hoffenheim,Bundesliga,2015/16,37,359,37.9,471
+Ingolstadt,Bundesliga,2015/16,40,381,30.7,412
+Köln,Bundesliga,2015/16,43,367,42.2,436
+Mainz 05,Bundesliga,2015/16,50,347,41.2,481
+Schalke 04,Bundesliga,2015/16,52,444,36.3,542
+Stuttgart,Bundesliga,2015/16,33,448,39.5,538
+Werder Bremen,Bundesliga,2015/16,38,414,34.3,481
+Wolfsburg,Bundesliga,2015/16,45,449,40.8,498
+Augsburg,Bundesliga,2016/17,38,344,35.2,332
+Bayer Leverkusen,Bundesliga,2016/17,41,404,41.8,567
+Bayern München,Bundesliga,2016/17,82,572,37.9,905
+Borussia Dortmund,Bundesliga,2016/17,64,473,42.7,716
+Borussia M'gladbach,Bundesliga,2016/17,45,382,36.4,505
+Darmstadt 98,Bundesliga,2016/17,25,294,31.6,334
+Eintracht Frankfurt,Bundesliga,2016/17,42,335,35.5,408
+Freiburg,Bundesliga,2016/17,48,361,38,360
+Hamburger SV,Bundesliga,2016/17,38,296,34.5,380
+Hertha BSC,Bundesliga,2016/17,49,303,41.3,323
+Hoffenheim,Bundesliga,2016/17,62,464,37.1,496
+Ingolstadt,Bundesliga,2016/17,32,404,38.6,495
+Köln,Bundesliga,2016/17,49,313,34.5,378
+Mainz 05,Bundesliga,2016/17,37,377,37.4,453
+RB Leipzig,Bundesliga,2016/17,67,406,41.6,579
+Schalke 04,Bundesliga,2016/17,43,390,33.6,481
+Werder Bremen,Bundesliga,2016/17,45,331,44.7,431
+Wolfsburg,Bundesliga,2016/17,37,383,34.7,441
+Augsburg,Bundesliga,2017/18,41,419,35.1,510
+Bayer Leverkusen,Bundesliga,2017/18,55,480,35,637
+Bayern München,Bundesliga,2017/18,84,565,39.8,847
+Borussia Dortmund,Bundesliga,2017/18,55,448,38.8,702
+Borussia M'gladbach,Bundesliga,2017/18,47,427,36.8,589
+Eintracht Frankfurt,Bundesliga,2017/18,49,359,38.4,521
+Freiburg,Bundesliga,2017/18,36,368,32.1,403
+Hamburger SV,Bundesliga,2017/18,31,357,36.1,501
+Hannover 96,Bundesliga,2017/18,39,412,34.5,446
+Hertha BSC,Bundesliga,2017/18,43,307,43.3,370
+Hoffenheim,Bundesliga,2017/18,55,460,38.3,590
+Köln,Bundesliga,2017/18,22,371,31.5,507
+Mainz 05,Bundesliga,2017/18,36,404,35.1,394
+RB Leipzig,Bundesliga,2017/18,53,460,38.7,605
+Schalke 04,Bundesliga,2017/18,63,376,42.3,470
+Stuttgart,Bundesliga,2017/18,51,338,35.5,426
+Werder Bremen,Bundesliga,2017/18,42,397,37,479
+Wolfsburg,Bundesliga,2017/18,33,345,35.4,396
+Augsburg,Bundesliga,2018/19,32,420,37.4,500
+Bayer Leverkusen,Bundesliga,2018/19,58,486,40.3,742
+Bayern München,Bundesliga,2018/19,78,606,41.4,1004
+Borussia Dortmund,Bundesliga,2018/19,76,433,43,715
+Borussia M'gladbach,Bundesliga,2018/19,55,426,37.8,599
+Eintracht Frankfurt,Bundesliga,2018/19,54,376,39.6,561
+Fortuna Düsseldorf,Bundesliga,2018/19,44,392,41.6,498
+Freiburg,Bundesliga,2018/19,36,405,40,448
+Hannover 96,Bundesliga,2018/19,21,359,33.1,413
+Hertha BSC,Bundesliga,2018/19,43,375,40,500
+Hoffenheim,Bundesliga,2018/19,51,568,39.4,775
+Mainz 05,Bundesliga,2018/19,43,459,32.2,521
+Nürnberg,Bundesliga,2018/19,19,330,30.9,372
+RB Leipzig,Bundesliga,2018/19,66,463,38.7,678
+Schalke 04,Bundesliga,2018/19,33,386,32.6,513
+Stuttgart,Bundesliga,2018/19,28,375,31.7,484
+Werder Bremen,Bundesliga,2018/19,53,438,39.5,601
+Wolfsburg,Bundesliga,2018/19,55,390,42.3,536
+Augsburg,Bundesliga,2019/20,36,334,39.8,412
+Bayer Leverkusen,Bundesliga,2019/20,63,462,39.6,739
+Bayern München,Bundesliga,2019/20,82,587,42.8,1086
+Borussia Dortmund,Bundesliga,2019/20,69,422,44.8,789
+Borussia M'gladbach,Bundesliga,2019/20,65,453,42.4,676
+Eintracht Frankfurt,Bundesliga,2019/20,45,460,37.4,660
+Fortuna Düsseldorf,Bundesliga,2019/20,30,403,29.8,458
+Freiburg,Bundesliga,2019/20,48,421,34.9,573
+Hertha BSC,Bundesliga,2019/20,41,336,37.5,439
+Hoffenheim,Bundesliga,2019/20,52,416,38.5,620
+Köln,Bundesliga,2019/20,36,374,38.8,545
+Mainz 05,Bundesliga,2019/20,37,423,33.6,532
+Paderborn,Bundesliga,2019/20,20,394,33,459
+RB Leipzig,Bundesliga,2019/20,66,512,41.2,814
+Schalke 04,Bundesliga,2019/20,39,358,35.2,510
+Union Berlin,Bundesliga,2019/20,41,365,37.8,464
+Werder Bremen,Bundesliga,2019/20,31,394,35.8,528
+Wolfsburg,Bundesliga,2019/20,49,443,35,614
+Arminia Bielefeld,Bundesliga,2020/21,35,308,32.5,410
+Augsburg,Bundesliga,2020/21,36,316,35.1,441
+Bayer Leverkusen,Bundesliga,2020/21,52,420,40.2,675
+Bayern München,Bundesliga,2020/21,78,560,41.6,1055
+Borussia Dortmund,Bundesliga,2020/21,64,487,40.2,939
+Borussia M'gladbach,Bundesliga,2020/21,49,432,40.3,669
+Eintracht Frankfurt,Bundesliga,2020/21,60,427,39.8,694
+Freiburg,Bundesliga,2020/21,45,363,41,558
+Hertha BSC,Bundesliga,2020/21,35,360,41.7,557
+Hoffenheim,Bundesliga,2020/21,43,395,39.5,664
+Köln,Bundesliga,2020/21,33,340,31.8,492
+Mainz 05,Bundesliga,2020/21,39,354,38.4,560
+RB Leipzig,Bundesliga,2020/21,65,506,39.9,831
+Schalke 04,Bundesliga,2020/21,16,282,30.5,409
+Stuttgart,Bundesliga,2020/21,45,424,37.5,645
+Union Berlin,Bundesliga,2020/21,50,373,36.2,472
+Werder Bremen,Bundesliga,2020/21,31,335,35.8,424
+Wolfsburg,Bundesliga,2020/21,61,454,36.6,658
+Angers SCO,Ligue 1,2015/16,50,379,35.9,365
+Bastia,Ligue 1,2015/16,50,320,35,323
+Bordeaux,Ligue 1,2015/16,50,418,34.9,502
+Caen,Ligue 1,2015/16,54,464,37.5,452
+Gazélec Ajaccio,Ligue 1,2015/16,37,413,30.5,453
+Guingamp,Ligue 1,2015/16,44,382,35.9,517
+Lille,Ligue 1,2015/16,60,465,34.8,524
+Lorient,Ligue 1,2015/16,46,401,39.9,451
+Monaco,Ligue 1,2015/16,65,414,41.3,528
+Montpellier,Ligue 1,2015/16,49,373,39.9,472
+Nantes,Ligue 1,2015/16,48,411,32.1,495
+Nice,Ligue 1,2015/16,62,363,43.8,465
+Olympique Lyonnais,Ligue 1,2015/16,65,535,38.3,665
+Olympique Marseille,Ligue 1,2015/16,48,457,39.8,604
+PSG,Ligue 1,2015/16,96,540,48.3,729
+Reims,Ligue 1,2015/16,39,428,37.6,478
+Rennes,Ligue 1,2015/16,52,393,39.9,447
+Saint-Étienne,Ligue 1,2015/16,58,433,31.4,505
+Toulouse,Ligue 1,2015/16,40,416,38.7,529
+Troyes,Ligue 1,2015/16,17,431,35,536
+Angers SCO,Ligue 1,2016/17,46,495,36.2,487
+Bastia,Ligue 1,2016/17,35,352,34.4,323
+Bordeaux,Ligue 1,2016/17,59,426,36.9,466
+Caen,Ligue 1,2016/17,37,436,31.9,416
+Dijon,Ligue 1,2016/17,37,398,37.9,447
+Guingamp,Ligue 1,2016/17,50,420,39.8,559
+Lille,Ligue 1,2016/17,46,472,33.1,428
+Lorient,Ligue 1,2016/17,36,396,36.6,481
+Metz,Ligue 1,2016/17,43,343,32.9,384
+Monaco,Ligue 1,2016/17,95,524,46,674
+Montpellier,Ligue 1,2016/17,39,468,34.4,505
+Nancy,Ligue 1,2016/17,35,361,32.7,369
+Nantes,Ligue 1,2016/17,51,436,33.3,545
+Nice,Ligue 1,2016/17,78,416,40.9,409
+Olympique Lyonnais,Ligue 1,2016/17,65,556,37.8,710
+Olympique Marseille,Ligue 1,2016/17,62,432,37,549
+PSG,Ligue 1,2016/17,87,545,40.9,759
+Rennes,Ligue 1,2016/17,50,422,36.3,456
+Saint-Étienne,Ligue 1,2016/17,50,388,32.2,464
+Toulouse,Ligue 1,2016/17,44,357,35.9,408
+Amiens SC,Ligue 1,2017/18,45,344,30.2,390
+Angers SCO,Ligue 1,2017/18,41,434,35.3,478
+Bordeaux,Ligue 1,2017/18,55,441,36.1,538
+Caen,Ligue 1,2017/18,38,433,28.9,433
+Dijon,Ligue 1,2017/18,48,426,37.8,483
+Guingamp,Ligue 1,2017/18,47,424,39.6,532
+Lille,Ligue 1,2017/18,38,415,34.5,478
+Metz,Ligue 1,2017/18,26,415,38.3,453
+Monaco,Ligue 1,2017/18,80,472,38.1,580
+Montpellier,Ligue 1,2017/18,51,453,35.1,458
+Nantes,Ligue 1,2017/18,52,473,28.8,508
+Nice,Ligue 1,2017/18,54,458,40.4,538
+Olympique Lyonnais,Ligue 1,2017/18,78,567,40.9,643
+Olympique Marseille,Ligue 1,2017/18,77,590,38.5,707
+PSG,Ligue 1,2017/18,93,606,41.7,955
+Rennes,Ligue 1,2017/18,58,433,34.2,461
+Saint-Étienne,Ligue 1,2017/18,55,405,37.3,492
+Strasbourg,Ligue 1,2017/18,38,431,31.1,488
+Toulouse,Ligue 1,2017/18,37,419,35.6,486
+Troyes,Ligue 1,2017/18,33,346,36.4,409
+Amiens SC,Ligue 1,2018/19,38,379,31.4,412
+Angers SCO,Ligue 1,2018/19,46,438,37,515
+Bordeaux,Ligue 1,2018/19,41,405,34.1,450
+Caen,Ligue 1,2018/19,33,316,31,346
+Dijon,Ligue 1,2018/19,34,432,34,496
+Guingamp,Ligue 1,2018/19,27,386,29,555
+Lille,Ligue 1,2018/19,75,467,42.2,536
+Monaco,Ligue 1,2018/19,36,453,35.5,565
+Montpellier,Ligue 1,2018/19,59,476,34.7,526
+Nantes,Ligue 1,2018/19,48,487,30,571
+Nice,Ligue 1,2018/19,56,420,32.6,520
+Nîmes,Ligue 1,2018/19,53,489,36.6,514
+Olympique Lyonnais,Ligue 1,2018/19,72,631,39.5,826
+Olympique Marseille,Ligue 1,2018/19,61,490,35.7,622
+PSG,Ligue 1,2018/19,91,548,41.6,953
+Reims,Ligue 1,2018/19,55,379,34.8,519
+Rennes,Ligue 1,2018/19,52,453,34.9,546
+Saint-Étienne,Ligue 1,2018/19,66,470,37.2,614
+Strasbourg,Ligue 1,2018/19,49,380,41.6,465
+Toulouse,Ligue 1,2018/19,38,394,34,530
+Angers SCO,Ligue 1,2020/21,44,386,37,495
+Bordeaux,Ligue 1,2020/21,45,383,37.3,505
+Brest,Ligue 1,2020/21,41,422,36.7,641
+Dijon,Ligue 1,2020/21,21,327,27.5,437
+Lens,Ligue 1,2020/21,57,420,35,586
+Lille,Ligue 1,2020/21,83,456,39.7,628
+Lorient,Ligue 1,2020/21,42,422,34.8,434
+Metz,Ligue 1,2020/21,47,413,33.7,457
+Monaco,Ligue 1,2020/21,78,456,37.9,805
+Montpellier,Ligue 1,2020/21,54,441,40.4,600
+Nantes,Ligue 1,2020/21,40,383,32.6,576
+Nice,Ligue 1,2020/21,52,379,38,583
+Nîmes,Ligue 1,2020/21,35,359,38.2,533
+Olympique Lyonnais,Ligue 1,2020/21,76,593,39.1,957
+Olympique Marseille,Ligue 1,2020/21,60,362,38.4,561
+PSG,Ligue 1,2020/21,82,548,39.4,951
+Reims,Ligue 1,2020/21,42,343,37.6,480
+Rennes,Ligue 1,2020/21,58,483,34,747
+Saint-Étienne,Ligue 1,2020/21,46,407,37.1,581
+Strasbourg,Ligue 1,2020/21,42,405,35.6,580
